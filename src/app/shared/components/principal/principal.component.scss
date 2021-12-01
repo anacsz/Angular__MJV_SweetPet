@@ -15,10 +15,8 @@
   color:#F28705;
 }
 
-main{background-color:#F2F2F2 ;}
 
 p{
-  color:#f28705;
   text-align: center;
   font-weight: bold;
 }
@@ -30,4 +28,18 @@ img{
 p img{
   width: 10%;
   height: 10%;
+}
+
+.container-opcoes-img{
+  border: 3px solid #296CF2;
+  border-radius: 5px;
+  box-shadow: 6px 3px 3px #A993E5;
+  width: 400px;
+  height: 300px;
+}
+
+.btn-opcoes{
+  background-color: #F28705;
+  width: 180px;
+  height: 60px;
 }
