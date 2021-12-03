@@ -15,6 +15,8 @@ import { ModalLoginComponent } from './shared/components/modal-login/modal-login
 import { ModalAtendimentoComponent } from './shared/components/modal-atendimento/modal-atendimento.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { ConstrucaoComponent } from './shared/components/construcao/construcao.component';
+import { AppRoutingModule } from './app-routing-modules';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     FooterComponent,
     PrincipalComponent,
     ModalLoginComponent,
-    ModalAtendimentoComponent
+    ModalAtendimentoComponent,
+    ConstrucaoComponent
 
   ],
   imports: [
@@ -34,7 +37,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatSidenavModule,
     MatIconModule,
     MatDialogModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
